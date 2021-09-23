@@ -1,11 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="link to the projects website">
-    <img src="https://cdn.logo.com/hotlink-ok/logo-social-sq.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">README-Template</h3>
+  
 
   <p align="center">
     A One line description of the project!
