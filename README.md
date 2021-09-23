@@ -108,30 +108,12 @@ streamlit run src/main.py
 a URL will show on the terminal. Copy it and paste it into your browser.
 ![Screen Shot 2021-08-29 at 5.02.13 PM.png](https://images.zenhubusercontent.com/5f66ee7be9044e5a59ea0125/da770f0e-8655-4e0c-8b20-37f0a1e7326d)
 
-### Development
 
-Add important instructions and links like:
 
-- Design link.
-- Important Dependencies and plugins...
-
-### Deployment
-
-Add deployment instructions and important links in here.
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 
-## Roadmap
 
-Link to Project Road Map either jira or zenHub or any other platform.
 
 <!-- CONTACT -->
 
