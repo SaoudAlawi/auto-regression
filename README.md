@@ -4,7 +4,7 @@
   
 
   <p align="center">
-    A One line description of the project!
+    Random Forrest Playground 
     <br />
     <a href="https://github.com/link-to-docs"><strong>Explore the docs »</strong></a>
     <br />
@@ -49,13 +49,15 @@
 
 [![Optional Project Screen Shot][product-screenshot]](https://example.com)
 
-Long description of the project.
+A playground try different hyperparameters and to see their effect on the Algorithm 
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Here are a few examples.
-
-- List all main libraries used. Only list Major libraries and not minor ones. (ex. don't list a calendar library that you are using)
+|Package|Role|
+|-|-|
+|[streamlit.io](https://streamlit.io/)|User Interface|
+|[sklearn.ensemble.RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html?highlight=randomforestregressor#sklearn.ensemble.RandomForestRegressor) |ML Algorithm|
+|[Dtreeviz](https://github.com/parrt/dtreeviz) |Visulization|
 
 ## Project Initiation
 
@@ -74,28 +76,36 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 
-- npm
+
+- Python 3.8.5 or higher
   ```sh
-  npm install npm@latest -g
+  Python --version
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. clone this repository on your local machine 
+```
+git clone https://github.com/SaoudAlawi/auto-regression
+```
+
+2. create an isolated Python virtual environment **(Optional )**
+Please refer to #3
+
+3. Install dependencies 
+The following command will install the required packages onto the Python environment
+```
+python -m pip install -r requirements.txt
+```
+
+4. Run Streamlit
+From the project directory, run the command 
+```
+streamlit run src/main.py
+```
+a URL will show on the terminal. Copy it and paste it into your browser.
+![Screen Shot 2021-08-29 at 5.02.13 PM.png](https://images.zenhubusercontent.com/5f66ee7be9044e5a59ea0125/da770f0e-8655-4e0c-8b20-37f0a1e7326d)
 
 ### Development
 
@@ -126,17 +136,11 @@ Link to Project Road Map either jira or zenHub or any other platform.
 
 ## Contact
 
-#### Project Manager:
+#### Project Author:
 
-- Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+- SaoudAlawi - 
 
-#### Team Leader:
 
-- Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-#### Partner Company Representative:
-
-- Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
