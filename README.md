@@ -47,7 +47,8 @@
 
 ## About The Project
 
-[![Optional Project Screen Shot][product-screenshot]](https://example.com)
+<img width="1671" alt="Screen Shot 2021-09-23 at 6 58 59 PM" src="https://user-images.githubusercontent.com/46417422/134531877-3e52325f-0a15-415a-bad2-8ced2ff2ba15.png">
+
 
 A playground try different hyperparameters and to see their effect on the Algorithm 
 
